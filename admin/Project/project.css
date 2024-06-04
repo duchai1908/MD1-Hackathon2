@@ -1,0 +1,40 @@
+.header-content{
+    display: flex;
+    justify-content:flex-end ;
+    background-color: #DADADA;
+    padding: 16px 0;
+}
+
+.header-content p {
+   margin: 0 6px 0 6px;
+}
+
+.nav-content{
+    background-color: #041434;
+    height: 100vh;
+}
+.skillProject{
+    color: white;
+    
+    margin-bottom: 2px;
+}
+.skillProject a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.col-lg-3 {
+    padding: 0;
+}
+
+.skillProject.active,
+.skillProject:hover{
+    background-color: #1E3155;
+}
+a{
+    text-decoration: none;
+}

@@ -1,0 +1,50 @@
+.content-header{
+    height:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.imgChange{
+    width:80px;
+    height: 80px;
+}
+.header-content{
+    display: flex;
+    justify-content:flex-end ;
+    background-color: #DADADA;
+    align-items: center;
+    padding: 16px 0;
+}
+
+.header-content p {
+   margin: 0 6px 0 6px;
+}
+
+.nav-content{
+    background-color: #041434;
+    height: 100vh;
+}
+.skillProject{
+    color: white;
+    
+    margin-bottom: 2px;
+}
+.skillProject a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.skillProject.active,
+.skillProject:hover{
+    background-color: #1E3155;
+}
+.col-lg-3 {
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
